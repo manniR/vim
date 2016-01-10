@@ -35,6 +35,8 @@ set nowrap
 "au BufRead,BufNewFile *.css set ft=css
 "au BufRead,BufNewFile *.javascript set ft=php.html.javascript
 
+let mapleader = ','
+
 
 "Shortcut for editing my vimrc file
 nmap ,ev :tabedit $MYVIMRC<cr>
