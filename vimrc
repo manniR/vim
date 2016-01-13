@@ -2,13 +2,17 @@ call pathogen#infect()
 call pathogen#helptags()  
 
 "set guifont=Inconsolata:h20
-set guifont=UbuntuMono-Regular:h22
+"set guifont=UbuntuMono-Regular:h22
+set guifont=FiraCode-Regular:h20
+set linespace=20
 "set nocompatible
 filetype on
 filetype plugin indent on 
 syntax on
 
-colo vydark
+"colorscheme xoria256
+colorscheme hybrid_material
+"colo vydark
 
 set tabstop=3
 set shiftwidth=3
@@ -18,7 +22,7 @@ set smartindent
 set autoindent
 set fileencoding=utf8
 set encoding=utf-8
-set linespace=6
+"set linespace=6
 set splitbelow
 set backspace=indent,eol,start
 set ts=2 sts=2 sw=2 expandtab
@@ -37,6 +41,8 @@ set nowrap
 
 let mapleader = ','
 
+"nerdtree
+map ,n :NERDTreeToggle<CR>
 
 "Shortcut for editing my vimrc file
 nmap ,ev :tabedit $MYVIMRC<cr>
