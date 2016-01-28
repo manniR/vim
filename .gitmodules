@@ -13,3 +13,6 @@
 [submodule "bundle/multiple-cursors"]
 	path = bundle/multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors.git
+[submodule "bundle/togglecursor"]
+	path = bundle/togglecursor
+	url = https://github.com/jszakmeister/vim-togglecursor.git
